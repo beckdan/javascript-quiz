@@ -5,8 +5,8 @@ JavaScript Quiz
 
 # SECONDARY TITLE
 
-Generate a Password
-​
+JavaScript Level I Quiz 
+
 ## Table of contents
 ​
 - [General info](#General-Info)
@@ -37,7 +37,7 @@ Project is created with:
 ​
 ## Code Overview
 ​
-This code uses basic HTML, CSS, and JavaScript to give a user a randomly generated password using characters specified by the user. 
+This code uses basic HTML, CSS, and JavaScript for a multiple choice quiz that is dynamically built in JavaScript. 
 ​
 ## Authors
 ​

@@ -39,6 +39,7 @@ var questionEl = document.querySelector("#question")
 var answerEl = document.querySelector("#answer")
 var finalScore = document.querySelector("#final-score")
 var submitBtn = document.querySelector("#submit")
+var intials = document.querySelector("#initials")
 
 //Declare variables/
 var timeRemaining = 180
@@ -106,24 +107,18 @@ function testvalue(svalue) {
     showQuestion()
 }
 
+
 function clockTick() {
     timeRemaining--
     timeEl.textContent = timeRemaining
 }
 
-
-function logInput() {
-  console.log(initials.value);
-}
-
-
+submitBtn.addEventListener("click", function() {
+    console.log(initials)
+})
 
 
 
 startBtn.onclick = startQuiz
-submitBtn.onclick = logInput
+submitBtn.onclick = submitBtn.addEventListener
 
-
-function logInput() {
-
-}
